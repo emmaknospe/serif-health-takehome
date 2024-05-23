@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "takehome"
+version = "0.1.0"
+description = ""
+authors = ["Emma Knospe <emma@emmaknospe.dev>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.32.2"
+ijson = "^3.2.3"
+tqdm = "^4.66.4"
+pandas = "^2.2.2"
+fastparquet = "^2024.5.0"
+jupyter = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
